@@ -8,7 +8,7 @@ const Services = () => {
         Colleborate with brand <br /> and agencies to create <br /> impactful
         results
       </h1>
-      <div className="w-90 sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 items-center">
+      <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 items-center mt-20">
         <ServiceCard
           icon="/images/s1.png"
           name="UI and UX"
