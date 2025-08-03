@@ -27,7 +27,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden" id="#home">
       <Hero />
       <Services />
       <Resume />

@@ -25,7 +25,7 @@ const responsive = {
 
 function ClientReview() {
   return (
-    <div className="pt-16 pb-16 ">
+    <div className="pt-16 pb-16" id="testimonials">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
         Kind words from satisfied <br />{" "}
         <span className="text-cyan-200">clients</span>
