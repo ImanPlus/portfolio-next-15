@@ -9,19 +9,34 @@ export default function Blog() {
         <span className="text-cyan-200"> Blogs</span>
       </h1>
       <div className="w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-3 xl:gap-4 gap-10 items-center mt-16">
-        <div className="col-span-1">
+        <div
+          className="col-span-1"
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+        >
           <BlogCard
             image="/images/b1.jpg"
             title="Learn how to build an amazing portfolio website using next js"
           />
         </div>
-        <div className="col-span-1">
+        <div
+          className="col-span-1"
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
           <BlogCard
             image="/images/b2.jpg"
             title="Learn how to build an amazing portfolio website using next js"
           />
         </div>
-        <div className="col-span-1">
+        <div
+          className="col-span-1"
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
           <BlogCard
             image="/images/b3.jpg"
             title="Learn how to build an amazing portfolio website using next js"

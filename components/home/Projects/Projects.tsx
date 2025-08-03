@@ -10,7 +10,11 @@ function Projects() {
       </h1>
       <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         {/* 1st project */}
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+        >
           <Image
             src="/images/p1.jpg"
             alt="img"
@@ -25,7 +29,11 @@ function Projects() {
         </div>
 
         {/* 2st project */}
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
           <Image
             src="/images/p2.jpg"
             alt="img"
@@ -40,7 +48,11 @@ function Projects() {
         </div>
 
         {/* 3st project */}
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
           <Image
             src="/images/p3.jpg"
             alt="img"
@@ -55,7 +67,11 @@ function Projects() {
         </div>
 
         {/* 4st project */}
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
           <Image
             src="/images/p4.jpg"
             alt="img"
@@ -64,7 +80,7 @@ function Projects() {
             className="rounded-lg"
           />
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-           SaaS Dashboard Development
+            SaaS Dashboard Development
           </h1>
           <h1 className="pt-2 font-medium text-white/80 ">Apps , UI/UX</h1>
         </div>
