@@ -17,12 +17,27 @@ function ScrollToTop() {
   }, []);
 
   // Scroll to top function
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+  const scrollToTop = (): void => {
+    const duration = 4000;
+    const start = window.scrollY;
+    const startTime = performance.now();
+
+    const easeOutCubic = (t: number): number => 1 - Math.pow(1 - t, 3);
+
+    const scroll = (currentTime: number): void => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easeProgress = easeOutCubic(progress);
+      window.scrollTo(0, start * (1 - easeProgress));
+      if (progress < 1) {
+        requestAnimationFrame(scroll);
+      }
+    };
+
+    requestAnimationFrame(scroll);
   };
+
+ 
   return (
     <div className="fixed bottom-4 animate-pulse right-4">
       {isVisible && (
