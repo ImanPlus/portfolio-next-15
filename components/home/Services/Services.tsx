@@ -16,8 +16,8 @@ const Services = () => {
         <div data-aos="fade-right" data-aos-anchor-placement="top-center">
           <ServiceCard
             icon="/images/s1.png"
-            name="UI and UX"
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use."
+            name="Responsive Design"
+            description="Creating user interfaces that look and work beautifully across all devices, from mobile to desktop."
           />
         </div>
         <div
@@ -27,8 +27,8 @@ const Services = () => {
         >
           <ServiceCard
             icon="/images/s2.png"
-            name="Web and Mobile App"
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use."
+            name="Performance Optimization"
+            description="Optimizing code and resources to improve speed and enhance the user experience."
           />
         </div>
         <div
@@ -38,8 +38,8 @@ const Services = () => {
         >
           <ServiceCard
             icon="/images/s3.png"
-            name="Design & Creative"
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use."
+            name="Interactive UI"
+            description="Building engaging animations and interactions that make the user experience more enjoyable."
           />
         </div>
         <div
@@ -49,8 +49,8 @@ const Services = () => {
         >
           <ServiceCard
             icon="/images/s4.png"
-            name="Development"
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use."
+            name="Modern Front-End Development"
+            description="Leveraging the latest libraries and frameworks to build scalable and efficient projects."
           />
         </div>
       </div>
