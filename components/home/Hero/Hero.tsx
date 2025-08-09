@@ -24,12 +24,10 @@ function Hero() {
           data-aos-delay="200"
           className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
         >
-          Shaping ideas into   
+          Shaping bold,
           <br />
-          bold interfaces and
-          <br />
-           memorable
-          <span className="text-cyan-200">web experiences</span>
+          memorable
+          <span className="text-cyan-200"> web interface ideas</span>
         </h1>
         <h2
           data-aos="fade-up"
