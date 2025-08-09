@@ -24,10 +24,12 @@ function Hero() {
           data-aos-delay="200"
           className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
         >
-          Creating Web product,
+          Shaping ideas into   
           <br />
-          brands,
-          <span className="text-cyan-200">and experiences</span>
+          bold interfaces and
+          <br />
+           memorable
+          <span className="text-cyan-200">web experiences</span>
         </h1>
         <h2
           data-aos="fade-up"
