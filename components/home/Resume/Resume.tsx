@@ -2,7 +2,7 @@ import React from "react";
 import ResumeCard from "./ResumeCard";
 import { FaCodepen, FaReact } from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
-import { BiBadge } from "react-icons/bi";
+import { MdOutlineCastForEducation } from "react-icons/md";
 
 function Resume() {
   return (
@@ -20,7 +20,16 @@ function Resume() {
           >
             <ResumeCard Icon={FaCodepen} role="Full-Stack Developer" />
             <ResumeCard Icon={FaReact} role="Front-End Developer" />
-            <ResumeCard Icon={BsDatabase} role="Backend Developer" />
+            <ResumeCard
+              Icon={BsDatabase}
+              role="Frontend Developer"
+              subject="Samian Soft"
+              image="/images/samian.png"
+              description="In this company, I have become acquainted with test composing.
+                In order to test the functions I have used Jest and Enzyme libraries and for testing components, the Cypress library as well.
+                Also, I have acquired a thorough knowledge of the syntax of these libraries and was able to compose several tests.
+                I intend to concentrate on the Front-end and begin to in-depth learning of the React Js library as well as (CSS - FlexBox)."
+            />
           </div>
         </div>
 
@@ -36,19 +45,22 @@ function Resume() {
             data-aos-delay="300"
           >
             <ResumeCard
-              Icon={BiBadge}
-              role="Design Institute of Technology"
-              date="Jan 2023 - Dec 2024"
+              Icon={MdOutlineCastForEducation}
+              role="Islamic Azad University"
+              date="2016 - 2020"
+              description="Master's degree, Computer Software Engineering"
             />
             <ResumeCard
-              Icon={FaReact}
-              role="Bachelor in Computer Science"
-              date="Jan 2019 - Dec 2022"
+              Icon={MdOutlineCastForEducation}
+              role="Islamic Azad University"
+              date="2008 - 2012"
+              description="Bachelor's degree, Computer Software Engineering"
             />
             <ResumeCard
-              Icon={BsDatabase}
-              role="Certificate in Digital Marketing"
-              date="Jan 2016 - Dec 2019"
+              Icon={MdOutlineCastForEducation}
+              role="Islamic Azad University"
+              date="2006 - 2008"
+              description="Associate's degree, Computer Software Engineering"
             />
           </div>
         </div>
