@@ -1,21 +1,31 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { IconType } from "react-icons";
 
 type Props = {
   role: string;
-  Icon: IconType;
+  Icon?: IconType;
   image?: string;
   date?: string;
   description: string;
   subject?: string;
+  url?: string;
 };
 
-function ResumeCard({ role, Icon, date, description, image, subject }: Props) {
+function ResumeCard({
+  role,
+  Icon,
+  date,
+  description,
+  image,
+  subject,
+  url,
+}: Props) {
   return (
     <div className="mb-6">
       <div className="flex items-center space-x-6 bg-blue-950/20 transition-all duration-300 p-4 sm:p-8 rounded-md">
-        <div className="sm:w-18 sm:h-18 w-20 bg-blue-950 rounded-full flex items-center justify-center flex-col">
+        <div className="sm:w-18 sm:h-18 w-20 bg-gray-950 rounded-full flex items-center justify-center flex-col">
           {image ? (
             <Image
               src={image}
@@ -37,7 +47,9 @@ function ResumeCard({ role, Icon, date, description, image, subject }: Props) {
           <h1 className="text-gray-200 text-xl sm:text-2xl font-semibold">
             {role}
           </h1>
-          <h2 className="text-xl text-yellow-500">{subject}</h2>
+          <h2 className="text-xl text-yellow-500">
+            <Link href={String(url)}>{subject}</Link>
+          </h2>
           <p className="text-gray-300 text-sm sm:text-base pt-3  text-justify">
             {description}
           </p>

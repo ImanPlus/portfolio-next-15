@@ -18,10 +18,35 @@ function Resume() {
             data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
           >
-            <ResumeCard Icon={FaCodepen} role="Full-Stack Developer" />
-            <ResumeCard Icon={FaReact} role="Front-End Developer" />
             <ResumeCard
-              Icon={BsDatabase}
+              date="Jan 2025 - Present"
+              url="https://ossolutions.ir/"
+              role="Frontend Developer"
+              subject="Pishgaman Matn Baz"
+              image="/images/pishgaman.png"
+              description="As a Frontend Developer at Pishgaman Matn Baz, I focus on building modern web applications using Next.js as the primary framework. When I first joined, my goal was to strengthen my skills in React and gain in-depth knowledge of Next.js, which has now become my main area of expertise.
+
+              During this role :
+              Developed a complete project independently, applying best practices in front-end development.
+              Collaborated on a larger team project, contributing to both design and implementation.
+              Leveraged Ant Design to accelerate the development of high-quality and reusable UI components.
+              Continuously enhanced my technical skills in HTML, CSS, JavaScript, Tailwind CSS, React, Next.js, and Ant Design.
+              I am committed to expanding my knowledge of Next.js through continuous learning and practice, with the goal of delivering scalable, high-performance applications."
+            />
+            <ResumeCard
+              date="Nov 2023 - Aug 2024"
+              url="https://codingfront.dev/"
+              role="Frontend Developer"
+              subject="Coding Front"
+              image="/images/codingfront.jpg"
+              description="During my internship at a coding bootcamp focused on front-end development, I gained hands-on experience in building and designing web applications. Key achievements include:
+                 Acquired skills in HTML and CSS, including page layout design using Flexbox and Grid systems.
+                 Learned JavaScript and React.js, with a focus on component development and working with functions.
+                 Completed three practical projects using React, showcasing responsive design and interactive UI components."
+            />
+            <ResumeCard
+              date="Nov 2020 - Sep 2021"
+              url="https://samiansoft.ir/"
               role="Frontend Developer"
               subject="Samian Soft"
               image="/images/samian.png"

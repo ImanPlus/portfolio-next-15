@@ -5,8 +5,10 @@ const Services = () => {
   return (
     <div className="pt-16 pb-16" id="services">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
-        Colleborate with brand <br /> and agencies to create <br /> impactful
-        results
+        Build modern web apps <br />
+        with Next.js and React
+        <br />
+        to deliver scalable solutions
       </h1>
       <div
         data-aos="fade-right"
