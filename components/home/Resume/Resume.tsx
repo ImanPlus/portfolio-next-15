@@ -22,7 +22,7 @@ function Resume() {
               date="Jan 2025 - Present"
               url="https://ossolutions.ir/"
               role="Frontend Developer"
-              subject="Pishgaman Matn Baz"
+              subject="Pishgaman Matn Baz . Full-time"
               image="/images/pishgaman.png"
               description="As a Frontend Developer at Pishgaman Matn Baz, I focus on building modern web applications using Next.js as the primary framework. When I first joined, my goal was to strengthen my skills in React and gain in-depth knowledge of Next.js, which has now become my main area of expertise.
 
@@ -37,7 +37,7 @@ function Resume() {
               date="Nov 2023 - Aug 2024"
               url="https://codingfront.dev/"
               role="Frontend Developer"
-              subject="Coding Front"
+              subject="Coding Front . Internship"
               image="/images/codingfront.jpg"
               description="During my internship at a coding bootcamp focused on front-end development, I gained hands-on experience in building and designing web applications. Key achievements include:
                  Acquired skills in HTML and CSS, including page layout design using Flexbox and Grid systems.
@@ -48,7 +48,7 @@ function Resume() {
               date="Nov 2020 - Sep 2021"
               url="https://samiansoft.ir/"
               role="Frontend Developer"
-              subject="Samian Soft"
+              subject="Samian Soft . Full-time"
               image="/images/samian.png"
               description="In this company, I have become acquainted with test composing.
                 In order to test the functions I have used Jest and Enzyme libraries and for testing components, the Cypress library as well.
